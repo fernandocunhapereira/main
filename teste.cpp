@@ -14,7 +14,7 @@ int main(int argc, char *argv[]){
 
 	std::cout<<"digite o tamanho"<<std::endl;
 	std::cin>>tam;
-
+	std::cout<<"o valor do tamanho é "<<tam;
 	//aloca a memoria
 	v=(size_t*) malloc(tam*sizeof(size_t)); 
 
