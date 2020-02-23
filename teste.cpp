@@ -14,13 +14,13 @@ int main(int argc, char *argv[]){
 
 	std::cout<<"digite o tamanho"<<std::endl;
 	std::cin>>tam;
-	std::cout<<"o valor do tamanho é "<<tam;
+	std::cout<<"o valor do tamanho é "<<tam<<std::endl;
 	//aloca a memoria
 	v=(size_t*) malloc(tam*sizeof(size_t)); 
 
 	//preenche com valores aleatorios
 	for(size_t i=0; i<tam; i++){
-		v[i]=rand()%1000;
+		v[i]=rand()%1000000;
 	}	
 
 	//imprime os valores antes da ordenacao
